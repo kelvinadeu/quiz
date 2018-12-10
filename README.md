@@ -12,3 +12,5 @@
     type in user details in space provided i.e Name: and School:.
     Click on Take Quiz and get the Test.
     Click on Submit to get scores.
+### BUGS
+    If their are bugs on my work please notify me through my email kelvinadeu25@gmail.com
