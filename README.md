@@ -9,4 +9,5 @@
     To get the project or question destination.Just go to chrome type git hub.search my account "kelvinadu",then choose quiz repository.You will find a link to my gh-page click on  the link and it will take you direct to the questions
 
 ### BDD
-    type in user details in space provided i.e Name: and School:  
+    type in user details in space provided i.e Name: and School:
+    click on Take Quiz and get the Test
