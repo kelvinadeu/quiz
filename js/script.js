@@ -1,5 +1,5 @@
  var sum=0
-function score(){
+function Result(){
 var questions=["q1","q2","q3","q4","q5"];
 questions.forEach(function(question){
   var userValue=$("input:radio[name="+question+"]:checked").val();
@@ -14,7 +14,7 @@ $(document).ready(function(){
  })
  $("#submit").click(function() {
      event.preventDefault();
-     $("#score").show();
+     $("#result").show();
      $(".form").hide();
      score();
      if(sum <= 60) {
@@ -25,7 +25,7 @@ $(document).ready(function(){
        $(".name-display").text(`Congratulations!`);
 
      }
-     $(".scoreDisplay").text(sum + "/100");
+     $(".reusltDisplays").text(sum + "/100");
    })
 
 
