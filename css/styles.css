@@ -8,6 +8,7 @@ section {
   margin-left: 5%;
   font-size: 20px;
   background-color: #CD5C5C;
+
 }
 
 input[type='submit'] {
@@ -15,4 +16,10 @@ input[type='submit'] {
   border: 0;
   color: #fff;
   padding: 10px 15px;
+}
+.form{
+  display:none;
+}
+#score{
+  display:none;
 }
