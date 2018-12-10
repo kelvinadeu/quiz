@@ -1,8 +1,18 @@
-body{
-  background-color: #f18973;
-  color:white:
+body {
+  color: white;
   font-family:sans-serif;
 }
-section{
+
+section {
   text-align: center;
+  margin-left: 5%;
+  font-size: 20px;
+  background-color: #CD5C5C;
+}
+
+input[type='submit'] {
+  background: #f06226;
+  border: 0;
+  color: #fff;
+  padding: 10px 15px;
 }
