@@ -1,9 +1,9 @@
  var sum=0
-function Result(){
+function result(){
 var questions=["q1","q2","q3","q4","q5"];
 questions.forEach(function(question){
   var userValue=$("input:radio[name="+question+"]:checked").val();
-      if( userValue ==="20"){
+      if( userValue =="20"){
         sum+=20;
       }
 });
@@ -14,9 +14,9 @@ $(document).ready(function(){
  })
  $("#submit").click(function() {
      event.preventDefault();
-     $("#result").show();
+     $(".result").show();
      $(".form").hide();
-     score();
+     result();
      if(sum <= 60) {
        $(".name-display").text(`Pull up your socks!`);
 
@@ -25,7 +25,7 @@ $(document).ready(function(){
        $(".name-display").text(`Congratulations!`);
 
      }
-     $(".reusltDisplays").text(sum + "/100");
+     $(".resultDisplay").text(sum + "/100");
    })
 
 

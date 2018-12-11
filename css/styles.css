@@ -20,7 +20,7 @@ input[type='submit'] {
 .form{
   display:none;
 }
-#score{
+.result{
   display:none;
 }
 html{
